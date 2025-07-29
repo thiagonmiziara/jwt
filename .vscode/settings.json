@@ -1,0 +1,13 @@
+{
+  "python.linting.enabled": false,
+  "python.linting.pylintEnabled": false,
+  "cSpell.words": [
+    "jsonify",
+    "pylint"
+  ],
+  "files.exclude": {
+    "**/*.pyc": {"when": "$(basename).py"},
+    "**/__pycache__": true,
+    "**/*.pytest_cache": true
+  }
+}
